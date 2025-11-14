@@ -6,10 +6,12 @@ import { NextResponse } from "next/server";
 //   return NextResponse.redirect(new URL('/', request.url))
 // }
 
+// ini logikanya dari next-auth jika blm ada login maka ....
 export { default } from "next-auth/middleware";
 //saya lebih memilih default dari next-auth untuk langsung dikasih pilihan login dahulu
 
 // See "Matching Paths" below to learn more
+//ini url yang igin kita match kan dengan logika diaats
 export const config = {
   matcher: "/dashboard/users/:path*",
 };

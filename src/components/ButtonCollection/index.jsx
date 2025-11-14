@@ -60,6 +60,7 @@ const ButtonCollection = ({ collection, anime_mal_id, user_email,anime_image,ani
             </p>
           </div>
         ) : null}
+        <button onClick={btnSaya.apa}>X</button>
         <button
           onClick={handle}
           disabled={btnDisable}

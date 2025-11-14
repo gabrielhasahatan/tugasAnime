@@ -1,5 +1,4 @@
 import Image from "next/image";
-import "/src/app/globals.css";
 import Link from "next/link";
 import NotFound from "@/app/not-found";
 import { notFound } from "next/navigation";
